@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+
+body {
+    font-family: 'Josefin Sans', sans-serif; 
+    background-color: #CCC4C4;  
+}
+nav {
+    width: 100%;
+	margin: 1% auto;
+	overflow: hidden;
+    border-radius: 5px;   
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;     
+}
+
+nav li a {
+    text-decoration: none;
+    transition: background 0.5s ease; 
+    background: #DADADA;
+	border-right: 1px solid #454545;
+    font-size: 120%;
+	font-weight: 600;
+	padding: 1%;   
+}
+
+nav li a:hover, nav li.active a {
+	background: #737373;
+    color: #09037E
+}
+
+header {
+    display: block;
+    height: 50px;
+    background-color: #6262E0;
+    padding: 2%;
+    border: 4px inset #332C2C;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 250%;
+}
+
+div h3 {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+div h3 a {
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.blogbody {
+    margin-top: 0px;
+}
+
+div p {
+    color: #00000;
+    font-size: 110%;
+}
+
+.error {
+    color: #FF0000;
+}
+
+form {
+    display: left;
+}
+
+.post_title .post_body {
+    margin-left: 3%;
+}
